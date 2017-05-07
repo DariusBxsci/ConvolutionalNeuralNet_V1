@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AxtyaConvNet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/AxtyaConvNet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="/usr/local/include/opencv" />
+				</Compiler>
+				<Linker>
+					<Add option="-lsfml-window -lsfml-graphics -lsfml-system" />
+					<Add library="/usr/local/lib/libopencv_core.so" />
+					<Add library="/usr/local/lib/libopencv_highgui.so" />
+					<Add library="/usr/local/lib/libopencv_imgcodecs.so" />
+					<Add library="/usr/local/lib/libopencv_imgproc.so" />
+					<Add library="/usr/local/lib/libopencv_ml.so" />
+					<Add library="/usr/local/lib/libopencv_objdetect.so" />
+					<Add library="/usr/local/lib/libopencv_photo.so" />
+					<Add library="/usr/local/lib/libopencv_shape.so" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Convolutional/featureMap.h" />
+		<Unit filename="Convolutional/filter.cpp" />
+		<Unit filename="Convolutional/filter.h" />
+		<Unit filename="Convolutional/kernel.cpp" />
+		<Unit filename="Convolutional/kernel.h" />
+		<Unit filename="Convolutional/layer.cpp" />
+		<Unit filename="Convolutional/layer.h" />
+		<Unit filename="Convolutional/network.cpp" />
+		<Unit filename="Convolutional/network.h" />
+		<Unit filename="FeedForward/activation.h" />
+		<Unit filename="FeedForward/layer.cpp" />
+		<Unit filename="FeedForward/layer.h" />
+		<Unit filename="FeedForward/network.cpp" />
+		<Unit filename="FeedForward/network.h" />
+		<Unit filename="FeedForward/neuron.cpp" />
+		<Unit filename="FeedForward/neuron.h" />
+		<Unit filename="examples/mnist.cpp" />
+		<Unit filename="examples/test.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="includes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

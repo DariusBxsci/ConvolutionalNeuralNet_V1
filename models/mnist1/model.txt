@@ -1,0 +1,7 @@
+48 3x3 kernels
+relu
+maxpool
+96 3x3 kernels
+relu
+maxpool
+7*7*48*2,150,10 classifier
