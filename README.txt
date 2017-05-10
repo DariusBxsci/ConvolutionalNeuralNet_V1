@@ -9,5 +9,6 @@ Notes for full library:
 		-> eg. Generative adversarial networks
 	- Allow for higher-dimensional convolutions
 	- Load data in binary format, instead of through many images
+	- Integrate OpenCL to allow for training on the GPU rather than just the CPU
 
 Please note that there was a bit of a time constraint on this project, so it is very rough around the edges.
