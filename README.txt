@@ -1,4 +1,4 @@
-This is a simple implementation of a convolution neural network (CNN) in C++.
+This is a simple (but complete) implementation of a convolution neural network (CNN) in C++.
 It uses Opencv (just for loading and displaying images) and the C++ standard library.
 I want to use this code as a prototype for a future, highly customizeable, C++ library that will encompass many neural network architectures (similar to tensorflow)
 
@@ -10,5 +10,3 @@ Notes for full library:
 	- Allow for higher-dimensional convolutions
 	- Load data in binary format, instead of through many images
 	- Integrate OpenCL to allow for training on the GPU rather than just the CPU
-
-Please note that there was a bit of a time constraint on this project, so it is very rough around the edges.
