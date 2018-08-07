@@ -1,4 +1,4 @@
-# ConvolutionalNeuralNet_V1
+# LightConv
 
 This is a simple (but complete) implementation of a convolution neural network (CNN) in C++.
 
